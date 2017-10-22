@@ -31,12 +31,26 @@ $(function() {
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
          */
+         var feedsLength= allFeeds.length;
+         it('has a defined URL that\'s not empty', function(){
+           for(var i=0; i<feedsLength; i++){
+             expect(allFeeds[i].url).toBeDefined();
+             expect(allFeeds[i].url.length).not.toBe(0);
+           }
+         });
 
 
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
+         it('hasa defined name and the name is not empty', function(){
+           for(var i=0; i<feedsLength; i++){
+             expect()
+           }
+         });
+
+
     });
 
 
@@ -47,7 +61,7 @@ $(function() {
          * the CSS to determine how we're performing the
          * hiding/showing of the menu element.
          */
-         ggg
+
 
          /* TODO: Write a test that ensures the menu changes
           * visibility when the menu icon is clicked. This test
