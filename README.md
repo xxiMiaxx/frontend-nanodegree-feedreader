@@ -10,10 +10,13 @@ clone the repo or download and open `index.html` in your browser .
 RSS FEED
 * Feeds are defined
 * all feeds URL'S and names are Defined and not empty.
+
 The menu
 * menu is hidden by default
 * when the icon is clicked the menu changes its visibility
+
 Initial Enteries
 * there is at least one entry in the feed container.
+
 New feed selection
 * when a new feed is seleced the previous feed content changes. 
